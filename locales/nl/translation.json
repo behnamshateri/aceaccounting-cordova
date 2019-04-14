@@ -1,0 +1,25 @@
+{
+    "header": {
+        "login-btn": "Inloggen",
+        "signup-btn": "INSCHRIJVEN",
+        "logout-btn": "Uitloggen",
+        "profile": "Profiel",
+        "account": "Rekening",
+        "email_is_not_active":"Activeer alstublieft uw e-mailadres"
+
+    },
+    "footer": {
+        "change-language": "Cerander taal:",
+        "copyright": " Auteursrechten:"
+    },
+    "login":{
+        "title": "Log in op jouw account",
+        "login-with-mobile": "Schakel over naar aanmelden met telefoonnummer",
+        "login-with-email": "Schakel over naar inloggen met e-mailadres",
+        "forgetpassword": "Forgot your password?",
+        "remember-me": "uw wachtwoord vergeten?",
+        "login-btn": "LOG IN",
+        "without-account": "Nog geen account?",
+        "signup": "Zing maar"
+    }
+}

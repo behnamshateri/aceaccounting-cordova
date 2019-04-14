@@ -1,0 +1,28 @@
+.transaction-chart {
+    height: 115px;
+}
+
+.transaction-data{
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    height: 100%;
+    box-shadow: 0 0 5px 0 #e2e2e2;
+    width: 100%;
+    padding: 7px 20px 15px;
+}
+.without-Transaction{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.without-Transaction p{
+     width: 100%;
+     margin-bottom: 5px;
+ }
+
+.without-Transaction a{
+    font-size: 12px;
+}
+

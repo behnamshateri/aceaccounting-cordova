@@ -1,0 +1,32 @@
+.invoice-container{
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.invoice-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.invoice-footer .btn-new-invoice{
+    font-size: 13px;
+}
+
+.invoice-footer .approve-invoice-btn{
+    background-color:#02bb02;
+    margin-right: 20px;
+}
+
+.invoice-footer .approve-invoice-btn:hover{
+    background-color: #0b911b!important;
+
+}
+.invoice-footer{
+    background: #fff;
+    padding: 8px 15px;
+    border-top: 1px solid #ddd;
+}
+

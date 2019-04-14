@@ -1,0 +1,24 @@
+{
+    "header": {
+        "login-btn": "ورود",
+        "signup-btn": "ثبت نام",
+        "logout-btn": "خروج",
+        "profile": "پروفایل",
+        "account": "حساب کاربری",
+        "email_is_not_active":"لطفا ایمیل خود را تایید کنید"
+    },
+    "footer": {
+        "change-language": "تغییر زبان:",
+        "copyright": " توسعه:"
+    },
+    "login":{
+        "title": "ورود به حساب کاربری",
+        "login-with-mobile": "ورود با شماره موبایل",
+        "login-with-email": "ورود با ایمیل",
+        "forgetpassword": "فراموشی رمز عبور",
+        "remember-me": "مرا به خاطر بسپار",
+        "login-btn": "ورود",
+        "without-account": "کاربر جدید هستید؟",
+        "signup": "ثبت نام"
+    }
+}

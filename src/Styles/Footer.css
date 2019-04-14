@@ -1,0 +1,41 @@
+.footer{
+    background: #a2b9bf;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-container{
+    padding: 20px 0px;
+    color: black;
+
+}
+.copyright-section{
+    background: #2B3B4C;
+    padding: 10px 0px;
+    color: #b5b5b5;
+
+}
+
+.copyright-section p{
+    margin: 0px;
+}
+
+.copyright-section span{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .copyright-section {
+        font-size: 11px;
+    }
+
+}

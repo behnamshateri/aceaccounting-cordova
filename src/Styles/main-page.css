@@ -1,0 +1,717 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(./../Fonts/fontawesome-webfont.eot);
+    src: url('./../Fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+    url(./../Fonts/fontawesome-webfont.woff2) format('woff2'),
+    url(./../Fonts/fontawesome-webfont.woff) format('woff'),
+    url(./../Fonts/fontawesome-webfont.ttf) format('truetype'),
+    url('./../Fonts/fontawesome-webfont.svg') format('svg')
+}
+
+
+body{
+    min-width: 320px;
+}
+
+.fade-enter {
+    opacity: 0.00;
+}
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 100ms ease-in;
+}
+.fade-exit {
+    opacity: 0;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0.0;
+    transition: opacity 100ms ease-in;
+}
+
+
+/*end of transition css*/
+/*end of transition css*/
+
+.inline-block{
+    display: inline-block;
+}
+
+.content-container{
+    min-height: 70vh;
+}
+
+button{
+    outline: none!important;
+}
+ul{
+    padding-left: 0px;
+}
+ul,li{
+    list-style: none;
+}
+
+.loading-container{
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 150px);
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 700px;
+
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+}
+
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+h1{
+    margin-bottom: 20px;
+}
+.intl-tel-input{
+    width:100%;
+}
+
+.intl-tel-input .flag-container{
+    position: relative;
+    height: 45px;
+    margin-bottom: 10px;
+    /*margin-top: 10px;*/
+}
+
+.intl-tel-input.allow-dropdown .selected-flag {
+    background-color: rgba(0,0,0,.05);
+
+    width: 100%;
+}
+.country-name-main{
+    display: inline-block;
+    width: 100%;
+    padding-left: 32px!important;
+    margin-top: 8px;
+    border: none!important;
+    z-index: -1!important;
+    position: relative;
+    /* margin-top: 22px; */
+    padding-top: 7px;
+    box-shadow: none!important;
+    background: transparent;
+
+}
+
+.intl-tel-input input[type=tel]{
+    border-radius: 5px;
+    /*padding: 10px!important;*/
+    padding: 12px 14px!important;
+    font-size: 16px;
+    height: auto;
+    outline: none!important;
+    border: 1px solid #c5c5c5;
+
+
+}
+
+form.invalid .intl-tel-input input[type=tel]{
+    border:1px solid red;
+}
+
+.btn-toolbar{
+    text-align: center;
+    margin-top:20px;
+}
+.btn-toolbar .btn{
+    float:none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.country-selected-container{
+    height: 0px;
+    position: relative;
+}
+
+.country-selected{
+    position: absolute;
+    top: auto;
+    bottom: -33px;
+    width: 100%;
+    left: 0px;
+    padding-top: 9px;
+    padding-left: 36px;
+}
+
+.sign-up-form{
+    margin-bottom: 10px;
+    padding: 12px 14px;
+    font-size: 16px;
+    height: auto;
+}
+
+.input-errors{
+    color: red;
+    margin-bottom: 8px;
+    margin-top: -7px;
+    display: block;
+}
+.intl-tel-input input#phonenumber {
+    margin-bottom: 10px !important;
+    width: calc(100% - 86px);
+    float: right;
+}
+.no-horizantal{
+    padding: 0px;
+}
+
+.inline-row-flex{
+    display: flex;
+    align-items: center;
+    
+}
+
+.colored-header-box{
+    /*border: 1px solid #495521;*/
+    padding: 10px 20px;
+    margin-top: 0px;
+    border-radius: 5px;
+    font-size: 24px;
+    /*background: #99a760;*/
+    color: black;
+    font-weight: bold;
+}
+.main-header-component{
+    width: 100%;
+    padding: 5px 0px;
+    /*margin-bottom: 15px;*/
+    border-bottom: 1px solid #eae8e8;
+    background: #fafafa;
+    /*box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);*/
+}
+.logo a{
+    display: inline-block;
+    height:100%;
+}
+.logo-normal{
+    background: url("../Images/Ace-Accounting-logo.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 246px;
+    height: 60px;
+    background-position: center;
+}
+
+.login-profile .logo-normal{
+    background: url("../Images/Ace-Acc.png") no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    background-position: center bottom;
+}
+
+
+.inline-row-flex-space{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.next-and-back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.next-and-back button{
+    font-size: 14px;
+}
+
+a:focus, a:hover {
+    text-decoration:none;
+}
+
+.form-signin-or-up-container .submit-btn{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+
+}
+
+.submit-btn{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+
+}
+
+.btn-containe .submit-btn {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+.form-signin-or-up-container{
+    width: 350px;
+ }
+.form-control{
+    color:#000;
+}
+
+.remember-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-me{
+    padding: 5px!important;
+}
+.label-remember-me{
+    margin-right: 0px!important;
+    margin-left: -8px!important;
+    margin-bottom: 0px;
+
+}
+.label-remember-me>span{
+    font-size: 14px;
+}
+
+.main-header-component{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-access .login-logout{
+    margin: 0px 10px;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.user-access .login-logout a{
+    padding: 8px 16px;
+}
+
+
+.user-access .login-logout.signup a{
+    color: white;
+}
+
+.user-access span{
+    font-size: 12px;
+}
+
+.user-access{
+    padding-right: 15px;
+    width: 225px;
+    text-align: right;
+}
+
+
+
+
+
+.go-to-dashboard a{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 27px;
+    display: inline-block;
+    border-bottom: 1px dotted #ffffff;
+}
+
+.user-profile-name{
+    font-size: 18px!important;
+    margin-bottom: 0px;
+}
+
+.user-profile-name:after{
+    content: '';
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border: 4px solid #484848;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: -4px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    margin-top: -5px;
+    margin-right: 11px;
+}
+
+.user-profile-menu{
+    width: 350px;
+}
+.user-profile-menu>div.userinfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+#user-profile-poper >div:last-child{
+    margin-top: 5px;
+    background: #eaeaea;
+}
+
+.profile-image-container{
+    width: 55px;
+}
+.user-profile-menu .second-part{
+    border-top: 1px solid #828282;
+    height: 35px;
+    text-align: center;
+}
+.user-profile-menu .second-part div{
+    height: 100%;
+}
+.user-profile-menu .second-part div a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.user-profile-menu .second-part div svg{
+    font-size: 19px;
+    margin-right: 4px;
+}
+
+.ReactPasswordStrength .ReactPasswordStrength-strength-bar {
+    top:3px!important;
+}
+
+.ReactPasswordStrength-strength-desc {
+    font-size: 12px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: center !important;
+}
+
+.ReactPasswordStrength {
+    border: none !important;
+    box-sizing: content-box !important;
+}
+.ReactPasswordStrength .ReactPasswordStrength-input {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container .selected-flag {
+    width: 78px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container {
+    display: inline-block;
+    width: auto;
+    height: 48px;
+}
+
+.ReactPasswordStrength-input.form-control {
+    border: 1px solid #ccc;
+}
+
+.ReactPasswordStrength-input.form-control:focus {
+    border-color: #66afe9;
+}
+
+.verifynumber .changenumber {
+    font-size: 12px;
+    cursor: pointer;
+    color: red;
+    height: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+    .verifynumber .changenumber svg {
+        font-size: 17px;
+        color: #a53838;
+       
+    }
+
+    .pointer{
+        cursor: pointer;
+    }
+
+
+.switch-login{
+    display: inline-block;
+    cursor: pointer;
+    color: #5e8ce2;
+    margin-bottom: 16px;
+    border-bottom: 1px dotted #3b6da0;
+    display: inline-block;
+}
+
+.selectlanguage .change-lang-select{
+    line-height: 18px;
+    font-size: 14px;
+    background: none!important;
+}
+
+.selectlanguage{
+    margin-right: 15px!important;
+}
+
+.userinfo .user-profile-name:after{
+    display: none;
+}
+
+.avatar-profile{
+    background-color:red!important;
+    cursor: pointer;
+}
+.title-Connection{
+    text-align: center;
+}
+.title-Connection h2{
+    font-size:20px;
+}
+.connection-string{
+    font-size: 17px!important;
+    text-align: center;
+}
+.connection-icon{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.connection-disconnected-icon{
+    color: red;
+}
+.connection-reconnecting-icon{
+    color: #218B21;
+}
+.connection-terminated-icon{
+    color: red;
+}
+
+.connection-wait{
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .logo-normal {
+        width: 230px;
+        height: 55px;
+    }
+    .main-div {
+        min-height: 600px;
+    }
+
+    .login-profile .logo-normal {
+        width: 55px;
+        height: 55px;
+        }
+
+
+}
+
+
+@media only screen and (max-width: 991px) {
+    .main-div {
+        min-height: 550px;
+    }
+    .user-access .login-logout {
+        font-size: 13px;
+        margin: 0px 7px;
+    }
+    .title-Connection{
+        padding-bottom: 12px!important;
+    }
+    .title-Connection h2 {
+        font-size: 18px;
+    }
+    .connection-string {
+        font-size: 16px!important;
+    }
+    .connection-icon {
+        font-size: 27px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .title-Connection h2 {
+        font-size: 17px;
+    }
+    .connection-icon {
+        font-size: 25px;
+    }
+    .connection-string {
+        font-size: 15px!important;
+    }
+
+    .avatar-profile{
+        width: 30px!important;
+        height: 30px!important;
+        font-size: 12px!important;
+        line-height: 10px;
+    }
+    .change-login-type-ul ul{
+        padding: 3px 0px!important;
+
+    }
+    .change-login-type-xs{
+        padding: 3px 11px!important;
+        font-size: 12px!important;
+    }
+    .container, .container-fluid {
+        width: 100%;
+    }
+
+    .change-login-signup{
+        display: inline-block!important;
+        margin-right: -7px;
+
+    }
+    .change-login-signup button{
+        padding: 5px!important;
+    }
+    .logo.login-profile{
+        text-align: left;
+    }
+    .logo-normal{
+        background: url("../Images/Ace-Acc.png") no-repeat;
+        background-size: contain;
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        background-position: center;
+    }
+    .login-profile .logo-normal {
+        width: 36px;
+        height: 36px;
+    }
+
+    .burger-menu{
+        padding: 5px 5px!important;
+        margin-left: 10px!important;
+    }
+    .xs-size-header{
+        width: 33.333%;
+    }
+
+    .user-profile-name span:last-child{
+        display: none;
+    }
+    .user-access.xs-size-header{
+        text-align: right;
+        /*padding-right: 8px;*/
+    }
+
+    .logo.xs-size-header{
+        padding-left: 0px;
+        text-align: center;
+        height: 35px;
+    }
+    .selectlanguage {
+        margin-right: 9px!important;
+    }
+    .selectlanguage .change-lang-select {
+        font-size: 12px;
+        width: calc(100% - 22px);
+        padding-right: 22px;
+    }
+
+    .user-access.xs-size-header{
+        text-align: right;
+    }
+
+    .user-profile-name:after{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .drawer-container ul li a{
+        display: inline-block;
+        width: 100%;
+        padding: 7px 0px;
+
+    }
+    .drawer-container ul li.active{
+        background: #e6e6e6;
+    }
+
+    .drawer-container .img-text{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .drawer-container .img-text .image-span{
+        width: 25px;
+        height: 25px;
+        margin-right: 8px;
+
+    }
+
+    .drawer-img img{
+         width: 35px;
+        margin: 0px auto;
+
+    }
+    .drawer-img{
+        background: #e0e0e0;
+        padding: 6px 0px;
+    }
+    .logo.login-profile{
+        text-align: left;
+        padding-left: 15px;
+
+    }
+
+    .user-profile-menu{
+        width: 275px;
+    }
+    .profile-image-container {
+        width: 40px;
+    }
+    .user-profile-name {
+        font-size: 14px!important;
+        margin-bottom: 0px;
+    }
+    .user-profile-menu>div.userinfo {
+        padding: 8px 15px;
+    }
+
+
+}
+

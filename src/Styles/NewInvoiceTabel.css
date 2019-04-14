@@ -1,0 +1,106 @@
+table{
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 20px;
+
+}
+
+.remove-row{
+    background: url("../Images/close.png") no-repeat;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    margin: 0;
+}
+
+thead tr th{
+    padding: 10px 3px 10px 5px;
+    color: #999;
+    background: linear-gradient(#fff,#fafafa);
+    background-color: #fafafa!important;
+}
+table tbody{
+    border-top: 1px solid #d6d6d6;
+    background:white;
+}
+
+table tbody tr{
+    border-bottom: 1px solid #d6d6d6;
+}
+/*table tbody tr:last-child{*/
+    /*border-bottom: 1px solid transparent;*/
+/*}*/
+
+table tbody tr td{
+    border-right: 1px solid #d6d6d6;
+}
+/*table tbody tr td:last-child{*/
+    /*border-right: 1px solid transparent;*/
+/*}*/
+
+.tabel-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-section > div{
+    padding: 5px 7px;
+}
+
+.price-section > div.total-invoice{
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+}
+.header-table-input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.invoice-input-currency{
+    background: white;
+}
+
+.invoice-input-currency > div > div > div{
+    padding: 12px 10px;
+    background: white;
+    font-size: 13px;
+    padding-right: 31px;
+
+}
+#currency-menu ul li{
+    font-size: 13px;
+}
+
+.dailog-for-currency *{
+    overflow: visible!important;
+}
+#form-dialog-title{
+    width: 500px;
+}
+.daialog-title h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.select-other-currency{
+    width: 200px;
+}
+.dailog-for-currency .dialog-text{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.dialog-btn button{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.error-input{
+    font-size: 12px;
+    margin-top: 8px;
+    color: red;
+    display: inline-block;
+}

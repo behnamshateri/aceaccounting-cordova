@@ -1,0 +1,25 @@
+{
+    "header": {
+        "login-btn": "S'IDENTIFIER",
+        "signup-btn": "S'INSCRIRE",
+        "logout-btn": "Logout",
+        "profile": "Connectez - Out",
+        "account": "Compte",
+        "email_is_not_active":"Veuillez activer votre adresse email"
+
+    },
+    "footer": {
+        "change-language": "Changer de langue:",
+        "copyright": " Droits d'auteur:"
+    },
+    "login":{
+        "title": "Connectez-vous à votre compte",
+        "login-with-mobile": "Passer à la connexion avec un numéro de téléphone",
+        "login-with-email": "Passer à la connexion avec l'adresse email",
+        "forgetpassword": "Mot de passe oublié?",
+        "remember-me": "Souviens-toi de moi",
+        "login-btn": "S'IDENTIFIER",
+        "without-account": "Pas encore de compte?",
+        "signup": "Chanter"
+    }
+}

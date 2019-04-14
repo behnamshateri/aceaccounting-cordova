@@ -1,0 +1,24 @@
+
+.redirect-to_home{
+    font-size: 14px;
+}
+
+.greeting-text{
+    color: #009033;
+    margin-bottom: 30px;
+}
+.greeting-text.error{
+    color: red;
+}
+.alert-container{
+    transform: scale(0.6);
+    height: 100px;
+}
+h1{
+    font-size: 28px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+h1.h1-error{
+    margin-top: 15px;
+}

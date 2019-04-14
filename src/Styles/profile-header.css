@@ -1,0 +1,174 @@
+.profile-header ul li {
+     list-style: none;
+     display: inline-block;
+     transition: 300ms;
+ }
+
+.profile-header ul li.active {
+    background: #e6e6e6;
+}
+.profile-header li{
+    background: transparent;
+    border-radius: 3px;
+}
+.profile-header li:hover {
+    background: #f1f1f1;
+}
+
+.profile-header li a{
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.company-selection{
+    padding-top: 0!important;
+    padding-bottom:0!important;
+}
+.company-selection .company-text span{
+    font-size: 14px;
+}
+
+.company-text {
+    padding:0px!important;
+}
+
+.company-text-year{
+    float: right;
+    text-align: right;
+
+}
+
+.company-text-year span{
+    color: #337ab7;
+    font-weight: bold;
+}
+
+
+.search-organisation{
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 4px;
+    outline: none!important;
+    border: none;
+    background: #f7f7f7;
+}
+
+.search-organisation::after{
+    content:"";
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+
+
+.search-org-container{
+    padding: 12px 15px;
+    border-bottom: 1px solid #cac7c7;
+    /*padding-bottom: 12px;*/
+    display: flex;
+    align-items: center;
+
+}
+
+
+.search-org-container i{
+    padding: 4px 10px;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+
+.organisation-not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #cac7c7;
+}
+
+.organisation-not-found i{
+    font-size: 20px;
+    color: #cac7c7;
+    margin-bottom: 12px;
+}
+
+.organisation-not-found p{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+
+
+@media only screen and (max-width:1199px){
+    .profile-image-container {
+        width: 45px;
+    }
+    .user-profile-menu>div.userinfo {
+        padding: 12px 15px;
+    }
+
+    .company-selection>div{
+        padding:10px 17px!important;
+    }
+    .user-profile-menu .second-part div svg {
+         font-size: 17px;
+     }
+    .user-profile-menu {
+        width: 300px;
+    }
+
+    .company-selection svg{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .profile-image-container {
+        width: 40px;
+    }
+    .user-profile-name {
+        font-size: 16px!important;
+    }
+    .company-selection .company-text span {
+        font-size: 13px;
+    }
+    .company-selection svg{
+          font-size: 18px;
+      }
+
+    .company-selection div div{
+        margin-right: 10px;
+    }
+    .company-selection>div {
+        padding: 9px 14px!important;
+    }
+    .user-profile-menu .second-part div a {
+        font-size: 14px;
+    }
+    .user-profile-menu {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .company-selection svg{
+        width: 20px;
+    }
+
+    .company-selection>div{
+        padding: 5px 10px;
+    }
+    .user-profile-menu .second-part div a {
+        font-size: 13px;
+    }
+    .user-profile-menu .second-part div svg {
+        font-size: 16px;
+        margin-right: 4px;
+    }
+}

@@ -1,0 +1,92 @@
+/*.main-div{*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    /*height: 100vh;*/
+
+/*}*/
+
+.react-code-input input{
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 23px!important;
+    padding-left: 14px!important;
+    width: 42px!important;
+    height: 42px!important;
+    box-shadow: none!important;
+}
+
+.react-code-input input::selection {
+    background:transparent; /* WebKit/Blink Browsers */
+}
+.react-code-input input::-moz-selection {
+    background: transparent; /* Gecko Browsers */
+}
+
+.btn-toolbar .btn{
+    margin-bottom: 20px;
+}
+
+/*.image-span{*/
+    /*width: 75px;*/
+    /*height: 75px;*/
+    /*background-size: contain;*/
+    /*display: inline-block;*/
+/*}*/
+
+.resend-code{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.sign-up-form.canEdit {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.verifynumber .selected-flag{
+    display: none;
+}
+.verifynumber #phonenumber{
+    width: 100%!important;
+    text-align: center;
+}
+
+.handle-disable{
+    position: absolute;
+    width: 100%;
+    background: #d4d4d463;
+    height: 48px;
+    border-radius: 4px;
+    z-index: 1;
+
+}
+
+
+.cancel-container{
+    margin-top: 20px;
+
+}
+.cancel-container.without-margin-top{
+    margin-top: 0px;
+}
+
+.cancel-container button{
+    font-size: 12px;
+}
+
+.change-phone-number{
+    font-size: 12px!important;
+    height: 30px;
+
+}
+
+.edit-Signup-Mobile_phone .intl-tel-input.allow-dropdown.separate-dial-code.iti-sdc-3 .selected-flag,
+.edit-Signup-Mobile_phone .intl-tel-input.allow-dropdown.separate-dial-code .selected-flag{
+display: none;
+}

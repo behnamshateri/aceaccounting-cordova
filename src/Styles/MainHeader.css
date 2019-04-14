@@ -1,0 +1,27 @@
+.email-isnt-acctive{
+    height: 28px;
+    background: red;
+    width: 100%;
+    display: flex;
+    /* text-align: center; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-isnt-acctive .fa{
+    margin: 0 10px;
+}
+
+.email-isnt-acctive-close{
+    position: absolute;
+    right:10px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.email-isnt-acctive-close .fa{
+    font-size: 18px;
+}

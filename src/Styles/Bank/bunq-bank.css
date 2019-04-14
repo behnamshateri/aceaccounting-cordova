@@ -1,0 +1,19 @@
+.connect-to-bunq-btn{
+    color: white;
+    border-radius: 10px;
+    background: black;
+    outline: none!important;
+    border: none;
+    padding: 6px;
+}
+
+.connect-to-bunq-btn img{
+    width: 40px;
+    display: inline-block;
+}
+
+.connect-to-bunq-btn span{
+    padding: 0px 13px;
+    font-size: 15px;
+}
+

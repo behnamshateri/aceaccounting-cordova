@@ -1,0 +1,25 @@
+{
+  "header": {
+     "login-btn": "LOGIN",
+     "signup-btn": "SIGNUP",
+     "logout-btn": "Logout",
+     "profile": "Profile",
+     "account": "Account",
+     "email_is_not_active":"Please active your email address"
+
+  },
+  "footer": {
+    "change-language": "Change language:",
+    "copyright": " Copyright: "
+  },
+  "login":{
+    "title": "Login to your account",
+    "login-with-mobile": "Switch to login with phone number",
+    "login-with-email": "Switch to login with email address",
+    "forgetpassword": "Forgot your password?",
+    "remember-me": "Remember me",
+    "login-btn": "LOG IN",
+    "without-account": "No account yet?",
+    "signup": "Sing up"
+  }
+}

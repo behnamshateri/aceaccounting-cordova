@@ -1,0 +1,49 @@
+.cimb-bank input{
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding: 3px 10px;
+
+}
+
+.cimb-bank{
+    margin-bottom: 10px;
+}
+
+.cimb-bank-container{
+    background: #d4d4d4;
+    padding-bottom: 20px;
+}
+
+.cimb-bank .header{
+    font-size: 15px;
+    margin: 0px;
+    padding: 13px;
+    border-left: 3px solid red;
+    background: #c3c3c3;
+}
+
+.cimb-bank .input-errors-anb {
+    color: #f00;
+    margin-top: 5px;
+    font-size: 12px;
+
+}
+
+.sms-token-image{
+    height: 50px;
+}
+
+.sms-token-image img{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.dialog-token{
+    background: #cecece;
+}
+
+.submit-btn-dialog.dialog-token{
+    margin: 0px;
+    padding: 10px;
+}

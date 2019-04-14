@@ -1,0 +1,66 @@
+.invoice-detail{
+    width: 25%;
+}
+.invoice-detail-contain{
+    width: 100%;
+}
+
+.invoice-detail-contain div{
+    text-align: center;
+}
+
+.invoice-detail-contain div p {
+    font-size: 20px;
+}
+
+.badge-number {
+
+    color: #ea1c1c;
+    font-size: 15px;
+    border: 1px solid orange;
+    margin-left: 10px;
+    padding: 0px 5px;
+    border-radius: 4px;
+}
+.invoice-detail-contain .MuiBadge-colorPrimary-38 {
+    color: #1a2383;
+    background-color: #d9d9d9;
+    font-size: 15px;
+}
+
+.fa-caret-down{
+    margin-left: 4px;
+}
+
+#simple-menu div.MuiPaper-root-42{
+    width: 180px;
+    margin-top: 54px;
+}
+
+#simple-menu li {
+    font-size: 16px;
+}
+#simple-menu div{
+    margin-top: 57px;
+}
+
+
+.invoice-type-select{
+    height: 60px;
+
+
+}
+.border-top{
+    border-top: 1px solid lightgrey;
+}
+.invoice-type-select span{
+    padding-right: 20px;
+}
+
+.invoice-type-select span:first-child{
+    font-size: 23px;
+    padding-bottom: 6px;
+}
+.fa-plus-square{
+    margin-right: 4px;
+}

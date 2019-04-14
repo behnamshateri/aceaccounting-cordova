@@ -1,0 +1,18 @@
+.error-404 h1{
+    font-size: 100px;
+    color: #6d6a6a;
+}
+
+.colored-msg{
+    color: #ff4c05;
+    font-size: 20px;
+}
+.usual-msg{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #b9b7b7;
+    margin-bottom: 33px;
+}
+
+.redirect-to-login{
+    font-size: 14px;
+}

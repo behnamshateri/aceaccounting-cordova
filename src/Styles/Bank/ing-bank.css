@@ -1,0 +1,135 @@
+.login-ing-container .up-title{
+    color: #ff6200;
+    letter-spacing: -1px;
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 0px;
+
+}
+
+.login-ing-container{
+    display: inline-block;
+    width: 400px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    text-align: left;
+
+}
+
+.input-ing{
+    width: 100%;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    background-color: white !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+.input-ing input:-webkit-autofill, .input-ing textarea:-webkit-autofill, .input-ing select:-webkit-autofill {
+    background-color: white !important;
+    background-image: none !important;
+    color: rgb(0, 0, 0) !important;
+}
+.input-ing input ,.input-ing label{
+    font-size: 16px;
+}
+
+.input-ing input{
+    padding: 6px 10px;
+    line-height: 20px;
+}
+
+.input-ing.haserror{
+    border-bottom:1px solid #ff6200;
+}
+
+
+.input-ing>div::after{
+    border-bottom-color: #ff6200;
+}
+
+
+.change-login-type{
+    border-bottom: 1px solid #dedede;
+    padding: 0px 30px;
+}
+
+.warning .alert{
+    padding: 0px;
+    background-color: #f3f8fc;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+}
+
+
+.warning .alert i:first-child{
+    color: #9a9df5;
+    font-size: 20px;
+}
+
+.warning .alert i:last-child{
+    color: #868686;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.warning .alert i{
+    padding: 0px 10px;
+}
+.warning .alert h2{
+    margin:0px;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.warning .alert span{
+    font-size: 13px;
+    width: 100%;
+}
+.ing-sub-body{
+    padding: 15px;
+
+}
+
+.change-login-type span{
+    cursor: pointer;
+    padding: 6px 9px;
+    font-weight: 500;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+}
+
+
+.change-login-type span.isactive{
+    border-bottom: 3px solid #ff6200;
+    font-weight: 600;
+}
+
+.input-errors-ing {
+
+    color: #525151;
+
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+
+}
+
+.input-errors-ing i{
+    color: red;
+    margin-right: 4px;
+    font-size:14px;
+}
